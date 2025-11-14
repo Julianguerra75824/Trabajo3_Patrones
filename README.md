@@ -44,17 +44,17 @@ Los observadores se pueden añadir o quitar en tiempo de ejecución.
 ## 🗂️ Estructura del Proyecto
 
 PatronesComportamiento
-├─ Program.cs
-├─ Strategy/
-│ ├─ Models.cs
-│ ├─ IPricingStrategy.cs
-│ ├─ RegularPricingStrategy.cs
-│ ├─ DiscountPricingStrategy.cs
-│ └─ TaxInclusivePricingStrategy.cs
-└─ Observer/
-├─ Events.cs
-├─ ISubscriber.cs
-├─ NotificationCenter.cs
-├─ EmailSubscriber.cs
-├─ SmsSubscriber.cs
-└─ LoggerSubscriber.cs
+Program.cs
+**Strategy**
+  -Models.cs
+  -IPricingStrategy.cs
+  -RegularPricingStrategy.cs
+  -DiscountPricingStrategy.cs
+  -TaxInclusivePricingStrategy.cs
+**Observer**
+  -Events.cs
+  -ISubscriber.cs
+  -NotificationCenter.cs
+  -EmailSubscriber.cs
+  -SmsSubscriber.cs
+  -LoggerSubscriber.cs
